@@ -6,13 +6,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~t7ND0YSA#rtwFSrGiVrnSNgjxZaoShsM9zCerp1ZDwYXfIjW-rU0",
+SESSION_ID: process.env.SESSION_ID || "malvin~E790TDpa#T2H9te2HGrn4p0wunEoP1bfdRtk3ym5u4hOYXq7ewSw",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
 // add bot name here for menu
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
 LINK_WHITELIST: "youtube.com,github.com",
